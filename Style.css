@@ -1,0 +1,107 @@
+body{background-color:#8c83c9;}
+
+body{margin:0;}
+
+ul{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:#483d8b;
+position:fixed;
+top:0;
+width:100%;}
+
+  li{float:left;}
+
+  li a{
+display:block;
+color:white;
+font-family:'courier new',monospace;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;}
+
+li a:hover:not(.active)
+{background-color:#5346a0;}
+
+.active{background-color:#382f6a;}
+
+*{box-sizing:border-box;}
+
+.img-container{
+float:left;
+width:33.33%;
+padding:5px;}
+
+.thing2{
+margin-top:100px;}
+
+.clearfix::after{
+content:"";
+clear:both;
+display:table;}
+
+.Bio1{margin-top:250px;
+margin-left:500px;
+color:white;
+font-family:'Courier New', monospace;}
+
+.pfp{
+margin-left:420px;
+border:black dashed;}
+
+.Bio2{
+color:white;
+font-family:'Courier New', monospace;
+font-size:20px;
+float:right;
+margin-top:70px;
+margin-right:400px;
+max-width:700px;}
+
+.thing{
+margin-left:100px;
+margin-left:100px;}
+
+.thing3{
+margin-top:50px;
+text-align:center;
+font-family:'Courier New', monospace;
+color:white;}
+
+img{
+border:solid black;}
+
+img:hover{
+border:solid palevioletred;}
+
+.thing4{
+margin-left:500px;}
+
+.game{
+margin-left:550px;
+margin-bottom:20px;}
+
+.thing5{
+margin-left:650px;
+margin-right:200px;
+margin-top:20px;}
+
+.thing6{
+font-family:'Courier New', monospace;
+color:white;
+margin-left:850px;}
+
+.center{
+margin-left:800px;
+margin-right:200px;
+margin-top:20px;
+}
+
+iframe{
+  border-width: 0px;
+margin-right: 0px;
+margin-left: 0px;
+}
+
